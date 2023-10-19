@@ -20,5 +20,8 @@ pyautogui.click(1017,300)
 time.sleep(2)
 pyautogui.write("Ola, estou comecando na area de programacao utilizando a linguagem Python e seria de grande utilidade conectar com voce que também opera com esta linguagem, essa e uma automacao utilizando Pyautogui, se recebeu essa mensagem, essa automacao funcionou; Vamos construir uma rede e aprender juntos! 😊")
 time.sleep(6)
-pyautogui.click(620,164)
+pyautogui.click(1020,164)
 
+# Note que você deve alterar os " pyautogui.click " de acordo com eixo X and Y da sua tela.
+# Você pode utilizar o comando dentro do CMD para printar onde seu mouse estiver, o comando é "python -m mouseinfo"
+# Caso não tenha instalado, utilize " pip install mouseinfo"
